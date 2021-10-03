@@ -8,6 +8,9 @@ module.exports = {
       'md': {'min':'1023px','max':'500px'},
       'lg': {'min':'1279px','max':'1024px'},
       'xl': {'max':'1280px'},
+    },
+    minWidth:{
+      '300':'300px'
     }
   },
   variants: {
