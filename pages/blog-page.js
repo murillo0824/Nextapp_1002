@@ -5,7 +5,7 @@ import Post from "../components/Post"
 
 
 
-const Blog = ({ posts })=> {
+export default function Blog({ posts }){
   return (
     <Layout title="blog">
       <div>blog page</div>
@@ -16,7 +16,7 @@ const Blog = ({ posts })=> {
   );
 }
 
-export default Blog;
+// export default Blog;
 
 export async function getStaticProps(){
   const posts = await getAllPostsData();
